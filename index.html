@@ -329,8 +329,8 @@ footer li{margin-bottom:9px;font-size:14px} footer li a:hover{color:#fff}
 @media (max-width:920px){
   .hero .wrap,.match .grid,.lead .grid,.about .grid,.cta-band,.gm-cols{grid-template-columns:1fr}
   .hero-visual{justify-self:center}
-  .nav-links{position:fixed;inset:0 0 auto 0;top:0;background:#fff;flex-direction:column;align-items:flex-start;padding:96px 6% 32px;gap:18px;box-shadow:var(--sh-lg);transform:translateY(-110%);transition:.35s;z-index:55}
-  .nav-links.open{transform:none}
+  .nav-links{position:fixed;inset:0 0 auto 0;top:0;background:#fff;flex-direction:column;align-items:flex-start;padding:96px 6% 32px;gap:18px;box-shadow:var(--sh-lg);transform:translateY(-110%);visibility:hidden;transition:transform .35s,visibility .35s;z-index:55}
+  .nav-links.open{transform:none;visibility:visible}
   .nav-links .btn{display:none}
   .burger{display:block;z-index:65}
   .burger.x span:nth-child(1){transform:translateY(7.6px) rotate(45deg)}
