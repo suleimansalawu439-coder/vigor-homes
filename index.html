@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Vigour Homes and Properties Investment Ltd | Real Estate in Abuja</title>
+<meta name="description" content="Vigour Homes and Properties Investment Ltd — Building Value. Creating Landmarks. Securing Futures. Explore The Grand Meridian mixed-use plaza in Jabi and Royal Prime Estate Phase 2 on Lugbe Airport Road, Abuja."/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: { extend: {
+    colors: { navy: '#0a1633', gold: '#c9a227', goldlight: '#e8c766' },
+    fontFamily: { serif: ['Fraunces','serif'], sans: ['Manrope','sans-serif'] }
+  }}
+}
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Manrope', sans-serif; }
+  .font-serif { font-family: 'Fraunces', serif; }
+  .gold-text { background: linear-gradient(135deg,#e8c766,#c9a227 60%,#a8841c); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .hero-overlay { background: linear-gradient(to bottom, rgba(6,12,32,.55), rgba(6,12,32,.35) 40%, rgba(6,12,32,.88)); }
+  .card-hover { transition: transform .35s ease, box-shadow .35s ease; }
+  .card-hover:hover { transform: translateY(-6px); box-shadow: 0 24px 48px -12px rgba(0,0,0,.35); }
+  /* chat widget */
+  #chat-panel { transition: transform .3s ease, opacity .3s ease; transform-origin: bottom right; }
+  #chat-panel.hidden-panel { transform: scale(.6); opacity: 0; pointer-events: none; }
+  .chat-msg { animation: msgIn .25s ease; }
+  @keyframes msgIn { from { opacity: 0; transform: translateY(8px);} to { opacity: 1; transform: none;} }
+  .typing-dot { animation: blink 1s infinite; }
+  .typing-dot:nth-child(2){ animation-delay:.2s } .typing-dot:nth-child(3){ animation-delay:.4s }
+  @keyframes blink { 0%,100%{opacity:.25} 50%{opacity:1} }
+  .quick-reply { transition: all .2s ease; }
+  .quick-reply:hover { background:#c9a227; color:#0a1633; border-color:#c9a227; }
+</style>
+</head>
+<body class="bg-white text-slate-800">
+
+<!-- ================= HEADER ================= -->
+<header class="bg-navy text-white sticky top-0 z-40 shadow-lg">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center py-4">
+      <a href="#top" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded bg-gold flex items-center justify-center font-serif font-semibold text-navy text-xl">V</div>
+        <div>
+          <div class="font-serif font-semibold text-lg leading-tight tracking-wide">VIGOUR HOMES</div>
+          <div class="text-[10px] uppercase tracking-[0.2em] text-goldlight">and Properties Invt. Ltd.</div>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center space-x-8 text-sm font-semibold">
+        <a href="#projects" class="text-slate-300 hover:text-goldlight">Projects</a>
+        <a href="#grand-meridian" class="text-slate-300 hover:text-goldlight">Grand Meridian</a>
+        <a href="#royal-prime" class="text-slate-300 hover:text-goldlight">Royal Prime Estate</a>
+        <a href="#contact" class="text-slate-300 hover:text-goldlight">Contact</a>
+      </nav>
+      <button onclick="toggleChat(true)" class="bg-gold hover:bg-goldlight text-navy px-5 py-2.5 rounded-lg font-bold text-sm transition">Find My Property</button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section id="top" class="relative min-h-[92vh] flex items-end">
+  <img src="images/hero-meridian.jpg" alt="The Grand Meridian, Jabi Abuja" class="absolute inset-0 w-full h-full object-cover"/>
+  <div class="absolute inset-0 hero-overlay"></div>
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 pt-40 w-full">
+    <p class="text-goldlight uppercase tracking-[0.3em] text-xs font-bold mb-4">Vigour Homes and Properties Investment Ltd.</p>
+    <h1 class="font-serif text-5xl md:text-7xl text-white font-semibold leading-tight">THE<br/><span class="gold-text">GRAND MERIDIAN</span></h1>
+    <p class="text-slate-200 text-lg md:text-xl mt-4 max-w-2xl">Where Prestige Meets Profit — a landmark mixed-use plaza in Jabi, Abuja. Live. Shop. Work. Invest. All in one address.</p>
+    <div class="flex flex-wrap gap-4 mt-8">
+      <a href="#projects" class="bg-gold hover:bg-goldlight text-navy font-bold px-8 py-3.5 rounded-lg transition">Explore Projects</a>
+      <button onclick="toggleChat(true)" class="border-2 border-white/70 hover:border-goldlight text-white font-bold px-8 py-3.5 rounded-lg transition">Find My Property</button>
+    </div>
+    <div class="flex flex-wrap gap-x-10 gap-y-4 mt-12 text-white">
+      <div><div class="font-serif text-3xl text-goldlight font-semibold">30</div><div class="text-xs uppercase tracking-widest text-slate-300">Shops</div></div>
+      <div><div class="font-serif text-3xl text-goldlight font-semibold">24</div><div class="text-xs uppercase tracking-widest text-slate-300">Apartments</div></div>
+      <div><div class="font-serif text-3xl text-goldlight font-semibold">3</div><div class="text-xs uppercase tracking-widest text-slate-300">Penthouses</div></div>
+      <div><div class="font-serif text-3xl text-goldlight font-semibold">4</div><div class="text-xs uppercase tracking-widest text-slate-300">Floors</div></div>
+      <div><div class="font-serif text-3xl text-goldlight font-semibold">FCDA</div><div class="text-xs uppercase tracking-widest text-slate-300">Approved</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="py-20 bg-slate-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <p class="text-gold uppercase tracking-[0.3em] text-xs font-bold text-center">Our Developments</p>
+    <h2 class="font-serif text-4xl md:text-5xl text-navy font-semibold text-center mt-3">Building Value. Creating Landmarks.</h2>
+    <p class="text-slate-500 text-center mt-4 max-w-2xl mx-auto">From landmark mixed-use plazas to secured family estates — every Vigour development is designed for impact and built for value.</p>
+
+    <!-- GRAND MERIDIAN -->
+    <div id="grand-meridian" class="mt-14 bg-white rounded-2xl overflow-hidden shadow-xl card-hover">
+      <div class="grid md:grid-cols-2">
+        <div class="relative min-h-[320px]">
+          <img src="images/hero-meridian.jpg" alt="The Grand Meridian" class="absolute inset-0 w-full h-full object-cover"/>
+          <div class="absolute top-4 left-4 bg-navy text-goldlight text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full">Jabi, Abuja</div>
+        </div>
+        <div class="p-8 md:p-10">
+          <p class="text-gold uppercase tracking-[0.25em] text-xs font-bold">Mixed-Use Plaza</p>
+          <h3 class="font-serif text-3xl md:text-4xl text-navy font-semibold mt-2">The Grand Meridian</h3>
+          <p class="text-slate-500 mt-3 italic">"Where Prestige Meets Profit"</p>
+          <p class="text-slate-600 mt-4">A future-forward mixed-use plaza blending luxury living with thriving commercial spaces — supermarket, pharmacy, bakery, café, boutique, bookshop, tech store and salon, all under one iconic roof.</p>
+          <ul class="grid grid-cols-2 gap-3 mt-6 text-sm">
+            <li class="flex items-center gap-2"><span class="text-gold font-bold">✓</span> 30 retail shops</li>
+            <li class="flex items-center gap-2"><span class="text-gold font-bold">✓</span> 24 luxury apartments</li>
+            <li class="flex items-center gap-2"><span class="text-gold font-bold">✓</span> 3 penthouses (4-bed each)</li>
+            <li class="flex items-center gap-2"><span class="text-gold font-bold">✓</span> Rooftop lounge &amp; terrace</li>
+            <li class="flex items-center gap-2"><span class="text-gold font-bold">✓</span> Ample parking space</li>
+            <li class="flex items-center gap-2"><span class="text-gold font-bold">✓</span> High rental yield</li>
+          </ul>
+          <p class="text-xs text-slate-400 mt-6">Plot 42, Centre B, Cadastral Zone B16, Jabi, Abuja</p>
+          <div class="flex flex-wrap gap-3 mt-6">
+            <a href="https://wa.me/2349160066664?text=Hello%20Vigour%20Homes!%20I%27m%20interested%20in%20The%20Grand%20Meridian%2C%20Jabi." target="_blank" class="bg-navy hover:bg-slate-800 text-white font-bold px-6 py-3 rounded-lg text-sm transition">Enquire on WhatsApp</a>
+            <button onclick="startChatFor('meridian')" class="border-2 border-navy text-navy hover:bg-navy hover:text-white font-bold px-6 py-3 rounded-lg text-sm transition">Find My Property</button>
+          </div>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 border-t">
+        <div class="relative h-40"><img src="images/thumb-retail.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Retail and shop spaces"/><span class="absolute bottom-2 left-3 text-white text-xs font-bold uppercase tracking-widest drop-shadow">Retail &amp; Shops</span></div>
+        <div class="relative h-40"><img src="images/thumb-apartments.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Luxury apartments"/><span class="absolute bottom-2 left-3 text-white text-xs font-bold uppercase tracking-widest drop-shadow">Luxury Apartments</span></div>
+        <div class="relative h-40"><img src="images/thumb-rooftop.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Rooftop lounge and terrace"/><span class="absolute bottom-2 left-3 text-white text-xs font-bold uppercase tracking-widest drop-shadow">Rooftop Lounge</span></div>
+        <div class="relative h-40"><img src="images/thumb-parking.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Ample parking space"/><span class="absolute bottom-2 left-3 text-white text-xs font-bold uppercase tracking-widest drop-shadow">Ample Parking</span></div>
+      </div>
+    </div>
+
+    <!-- ROYAL PRIME -->
+    <div id="royal-prime" class="mt-10 bg-white rounded-2xl overflow-hidden shadow-xl card-hover">
+      <div class="grid md:grid-cols-2">
+        <div class="p-8 md:p-10 order-2 md:order-1">
+          <p class="text-gold uppercase tracking-[0.25em] text-xs font-bold">Residential Estate</p>
+          <h3 class="font-serif text-3xl md:text-4xl text-navy font-semibold mt-2">Royal Prime Estate <span class="text-gold">Phase 2</span></h3>
+          <p class="text-slate-500 mt-3 italic">"Your Dream Home. A Smarter Investment."</p>
+          <p class="text-slate-600 mt-4">A secured, gated estate on Lugbe Airport Road with good road networks and constant electricity — a strategic location for families, investors and future generations. <span class="font-bold text-navy">FCDA Approved.</span></p>
+          <div class="grid grid-cols-2 gap-3 mt-6">
+            <div class="border rounded-xl p-4 text-center"><div class="font-bold text-navy text-sm">1 Bedroom Flat</div><div class="font-serif text-2xl text-gold font-semibold mt-1">₦18M</div></div>
+            <div class="border rounded-xl p-4 text-center"><div class="font-bold text-navy text-sm">2 Bedroom Apartment</div><div class="font-serif text-2xl text-gold font-semibold mt-1">₦30M</div></div>
+            <div class="border rounded-xl p-4 text-center"><div class="font-bold text-navy text-sm">3 Bedroom Apartment</div><div class="font-serif text-2xl text-gold font-semibold mt-1">₦36M</div></div>
+            <div class="border rounded-xl p-4 text-center"><div class="font-bold text-navy text-sm">4 Bed Semi-Detached Duplex</div><div class="font-serif text-2xl text-gold font-semibold mt-1">₦60M</div></div>
+          </div>
+          <div class="bg-navy text-white rounded-xl p-4 mt-6 flex items-center justify-between flex-wrap gap-2">
+            <div><div class="font-bold text-goldlight">50% Deposit</div><div class="text-xs text-slate-300">Spread the balance within 6 months</div></div>
+            <div class="text-xs text-slate-300">✓ Secured &amp; gated &nbsp; ✓ Good roads &nbsp; ✓ Constant electricity</div>
+          </div>
+          <p class="text-xs text-slate-400 mt-4">Aco Phase II, Lugbe Airport Road, Abuja</p>
+          <div class="flex flex-wrap gap-3 mt-6">
+            <a href="https://wa.me/2349160066664?text=Hello%20Vigour%20Homes!%20I%27m%20interested%20in%20Royal%20Prime%20Estate%20Phase%202." target="_blank" class="bg-navy hover:bg-slate-800 text-white font-bold px-6 py-3 rounded-lg text-sm transition">Enquire on WhatsApp</a>
+            <button onclick="startChatFor('royal')" class="border-2 border-navy text-navy hover:bg-navy hover:text-white font-bold px-6 py-3 rounded-lg text-sm transition">Find My Property</button>
+          </div>
+        </div>
+        <div class="relative min-h-[320px] order-1 md:order-2">
+          <img src="images/royal-prime.jpg" alt="Royal Prime Estate Phase 2" class="absolute inset-0 w-full h-full object-cover"/>
+          <div class="absolute top-4 left-4 bg-navy text-goldlight text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full">Lugbe Airport Road</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY VIGOUR ================= -->
+<section class="py-20 bg-navy text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <p class="text-goldlight uppercase tracking-[0.3em] text-xs font-bold">Why Vigour Homes</p>
+    <h2 class="font-serif text-4xl md:text-5xl font-semibold mt-3">Securing Futures, <span class="gold-text">One Landmark</span> at a Time</h2>
+    <p class="text-slate-300 mt-6 max-w-3xl mx-auto">Vigour Homes and Properties Investment Ltd. (RC No. 6886129) develops property, land and real-estate investment opportunities across Abuja — from the iconic Grand Meridian plaza in Jabi to family estates on the Lugbe Airport Road corridor. Every project is chosen for location, finished for prestige, and structured for returns.</p>
+    <div class="grid md:grid-cols-3 gap-6 mt-12 text-left">
+      <div class="bg-white/5 border border-white/10 rounded-2xl p-8">
+        <div class="text-goldlight font-serif text-3xl font-semibold">01</div>
+        <h3 class="font-bold text-lg mt-3">Prime Locations Only</h3>
+        <p class="text-slate-400 text-sm mt-2">Jabi's rapidly growing business district and the Lugbe Airport Road corridor — areas where value compounds.</p>
+      </div>
+      <div class="bg-white/5 border border-white/10 rounded-2xl p-8">
+        <div class="text-goldlight font-serif text-3xl font-semibold">02</div>
+        <h3 class="font-bold text-lg mt-3">Flexible Payment Plans</h3>
+        <p class="text-slate-400 text-sm mt-2">Start with a 50% deposit and spread the balance within 6 months. Owning in Abuja shouldn't wait.</p>
+      </div>
+      <div class="bg-white/5 border border-white/10 rounded-2xl p-8">
+        <div class="text-goldlight font-serif text-3xl font-semibold">03</div>
+        <h3 class="font-bold text-lg mt-3">Approved &amp; Secured</h3>
+        <p class="text-slate-400 text-sm mt-2">FCDA-approved developments in secured, gated environments with reliable infrastructure.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <p class="text-gold uppercase tracking-[0.3em] text-xs font-bold text-center">Get In Touch</p>
+    <h2 class="font-serif text-4xl md:text-5xl text-navy font-semibold text-center mt-3">Let's Find Your Property</h2>
+    <p class="text-slate-500 text-center mt-4">Call, email, or chat with us on WhatsApp — we respond fast.</p>
+    <div class="grid md:grid-cols-3 gap-6 mt-12">
+      <a href="tel:+2349160066664" class="border rounded-2xl p-8 text-center card-hover block">
+        <div class="w-12 h-12 mx-auto rounded-full bg-navy text-goldlight flex items-center justify-center text-xl font-bold">✆</div>
+        <h3 class="font-bold text-navy mt-4">Call Us</h3>
+        <p class="text-slate-600 mt-2 font-semibold">0916 006 6664</p>
+        <p class="text-xs text-slate-400 mt-1">Mon–Sat, 8am–6pm</p>
+      </a>
+      <a href="mailto:vigourhomesandproperties@gmail.com" class="border rounded-2xl p-8 text-center card-hover block">
+        <div class="w-12 h-12 mx-auto rounded-full bg-navy text-goldlight flex items-center justify-center text-xl font-bold">✉</div>
+        <h3 class="font-bold text-navy mt-4">Email Us</h3>
+        <p class="text-slate-600 mt-2 font-semibold text-sm break-all">vigourhomesandproperties@gmail.com</p>
+        <p class="text-xs text-slate-400 mt-1">We reply within 24 hours</p>
+      </a>
+      <a href="https://wa.me/2349160066664?text=Hello%20Vigour%20Homes!%20I%27d%20like%20to%20make%20an%20enquiry." target="_blank" class="border rounded-2xl p-8 text-center card-hover block">
+        <div class="w-12 h-12 mx-auto rounded-full bg-green-600 text-white flex items-center justify-center text-xl font-bold">◉</div>
+        <h3 class="font-bold text-navy mt-4">WhatsApp</h3>
+        <p class="text-slate-600 mt-2 font-semibold">Chat instantly</p>
+        <p class="text-xs text-slate-400 mt-1">Fastest response</p>
+      </a>
+    </div>
+    <div class="bg-slate-50 rounded-2xl p-8 mt-8 text-center">
+      <h3 class="font-bold text-navy">Head Office</h3>
+      <p class="text-slate-600 mt-2">Suite 2–8, Business Throne Plaza, Joseph Gomwalk Street,<br/>Gudu, Abuja, Nigeria</p>
+      <p class="text-xs text-slate-400 mt-3">RC No. 6886129</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-navy text-slate-400 py-10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+    <div class="flex items-center gap-3">
+      <div class="w-9 h-9 rounded bg-gold flex items-center justify-center font-serif font-semibold text-navy">V</div>
+      <div class="text-sm"><span class="text-white font-bold">VIGOUR HOMES</span> and Properties Invt. Ltd.</div>
+    </div>
+    <div class="text-xs text-center">Building Wealth • Creating Legacies<br/>RC No. 6886129 — © 2026 Vigour Homes and Properties Investment Ltd.</div>
+    <button onclick="toggleChat(true)" class="bg-gold hover:bg-goldlight text-navy px-5 py-2.5 rounded-lg font-bold text-sm transition">Find My Property</button>
+  </div>
+</footer>
+
+<!-- ================= FIND MY PROPERTY CHAT ================= -->
+<button id="chat-fab" onclick="toggleChat()" class="fixed bottom-6 right-6 z-50 w-16 h-16 rounded-full bg-gold hover:bg-goldlight text-navy shadow-2xl flex items-center justify-center transition" aria-label="Find My Property">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+</button>
+
+<div id="chat-panel" class="hidden-panel fixed bottom-24 right-6 z-50 w-[92vw] max-w-sm bg-white rounded-2xl shadow-2xl overflow-hidden flex flex-col" style="height: 540px; max-height: 70vh;">
+  <div class="bg-navy text-white p-4 flex items-center justify-between">
+    <div>
+      <div class="font-bold">Find My Property</div>
+      <div class="text-xs text-slate-400">Vigour Homes assistant — replies instantly</div>
+    </div>
+    <button onclick="toggleChat(false)" class="text-slate-400 hover:text-white text-2xl leading-none">×</button>
+  </div>
+  <div id="chat-body" class="flex-1 overflow-y-auto p-4 space-y-3 bg-slate-50"></div>
+  <div id="chat-quick" class="p-3 bg-white border-t flex flex-wrap gap-2"></div>
+</div>
+
+<script>
+const WA = "https://wa.me/2349160066664?text=";
+const PRODUCTS = {
+  flat1:   { name: "1 Bedroom Flat", price: "₦18M", project: "Royal Prime Estate Phase 2", loc: "Aco Phase II, Lugbe Airport Road", desc: "A smart starter home in a secured, gated estate — perfect first step into Abuja property." },
+  apt2:    { name: "2 Bedroom Apartment", price: "₦30M", project: "Royal Prime Estate Phase 2", loc: "Aco Phase II, Lugbe Airport Road", desc: "Comfortable family living with good road networks and constant electricity." },
+  apt3:    { name: "3 Bedroom Apartment", price: "₦36M", project: "Royal Prime Estate Phase 2", loc: "Aco Phase II, Lugbe Airport Road", desc: "Spacious apartment for a growing family in a prime, FCDA-approved estate." },
+  duplex4: { name: "4 Bedroom Semi-Detached Duplex", price: "₦60M", project: "Royal Prime Estate Phase 2", loc: "Aco Phase II, Lugbe Airport Road", desc: "Premium duplex living — modern lifestyle with world-class amenities." },
+  meridian:{ name: "The Grand Meridian", price: "Enquire for price", project: "The Grand Meridian", loc: "Plot 42, Centre B, Cadastral Zone B16, Jabi", desc: "30 shops, 24 luxury apartments and 3 penthouses in Jabi's landmark mixed-use plaza. Where Prestige Meets Profit." }
+};
+
+let chatStep = "start";
+const chatBody = () => document.getElementById('chat-body');
+const chatQuick = () => document.getElementById('chat-quick');
+
+function toggleChat(force) {
+  const p = document.getElementById('chat-panel');
+  const show = force !== undefined ? force : p.classList.contains('hidden-panel');
+  p.classList.toggle('hidden-panel', !show);
+  if (show && chatBody().children.length === 0) startChat();
+}
+function startChatFor(which) {
+  toggleChat(true);
+  if (which === 'meridian') setTimeout(() => pick("goal-invest"), 600);
+  if (which === 'royal') setTimeout(() => pick("goal-live"), 600);
+}
+function scrollChat(){ const b = chatBody(); b.scrollTop = b.scrollHeight; }
+function botSay(html, delay=500) {
+  const t = document.createElement('div');
+  t.className = 'chat-msg flex gap-2';
+  t.innerHTML = `<div class="w-8 h-8 rounded-full bg-navy text-goldlight flex items-center justify-center text-sm font-bold shrink-0">V</div>
+    <div class="bg-white border rounded-2xl rounded-tl-sm px-4 py-3 text-sm text-slate-700 shadow-sm max-w-[85%]"><span class="typing-dot">●</span> <span class="typing-dot">●</span> <span class="typing-dot">●</span></div>`;
+  chatBody().appendChild(t); scrollChat();
+  setTimeout(() => { t.querySelector('.bg-white').innerHTML = html; scrollChat(); }, delay);
+}
+function userSay(text) {
+  const m = document.createElement('div');
+  m.className = 'chat-msg flex justify-end';
+  m.innerHTML = `<div class="bg-navy text-white rounded-2xl rounded-tr-sm px-4 py-3 text-sm max-w-[85%]">${text}</div>`;
+  chatBody().appendChild(m); scrollChat();
+}
+function setQuick(options) {
+  const q = chatQuick(); q.innerHTML = '';
+  options.forEach(([label, val]) => {
+    const b = document.createElement('button');
+    b.className = 'quick-reply text-xs font-bold border-2 border-navy/20 text-navy px-4 py-2 rounded-full';
+    b.textContent = label;
+    b.onclick = () => pick(val);
+    q.appendChild(b);
+  });
+}
+function startChat() {
+  chatStep = "goal";
+  botSay("Hello! Welcome to <b>Vigour Homes</b>. I'm your property assistant. 🏠<br><br>What are you looking for today?", 400);
+  setTimeout(() => setQuick([
+    ["A home to live in", "goal-live"],
+    ["An investment", "goal-invest"],
+    ["A shop / commercial space", "goal-shop"]
+  ]), 900);
+}
+function pick(val) {
+  const labels = { "goal-live": "A home to live in", "goal-invest": "An investment", "goal-shop": "A shop / commercial space",
+    "b1": "Under ₦20M", "b2": "₦20M – ₦35M", "b3": "₦35M – ₦50M", "b4": "₦50M+",
+    "i1": "Rental income", "i2": "Capital appreciation", "more-yes": "Yes, show me more", "more-no": "No, I'm good" };
+  if (labels[val]) userSay(labels[val]);
+  setQuick([]);
+
+  if (val === "goal-live" || val === "goal-invest" || val === "goal-shop") {
+    chatStep = "budget";
+    window._goal = val;
+    if (val === "goal-shop") return recommend("meridian");
+    if (val === "goal-invest") {
+      botSay("Great choice — Abuja property rewards investors well. What's your <b>investment focus</b>?");
+      setTimeout(() => setQuick([["Rental income", "i1"], ["Capital appreciation", "i2"]]), 900);
+      return;
+    }
+    botSay("Lovely! What's your <b>budget range</b>?", 600);
+    setTimeout(() => setQuick([["Under ₦20M","b1"],["₦20M – ₦35M","b2"],["₦35M – ₦50M","b3"],["₦50M+","b4"]]), 1100);
+    return;
+  }
+  if (val === "i1" || val === "i2") {
+    botSay("What's your <b>budget range</b>?", 500);
+    setTimeout(() => setQuick([["Under ₦20M","b1"],["₦20M – ₦35M","b2"],["₦35M – ₦50M","b3"],["₦50M+","b4"]]), 1000);
+    return;
+  }
+  if (val.startsWith("b")) {
+    const map = { b1: ["flat1"], b2: ["apt2","apt3"], b3: ["apt3"], b4: ["duplex4","meridian"] };
+    const goal = window._goal;
+    let recs = map[val] || ["flat1"];
+    if (goal === "goal-invest" && val === "b4") recs = ["meridian","duplex4"];
+    if (goal === "goal-invest" && (val === "b2" || val === "b3")) recs = ["apt2","apt3","meridian"];
+    recommend(recs[0], recs.slice(1));
+    return;
+  }
+  if (val === "more-yes") { startChat(); return; }
+  if (val === "more-no") { botSay("No problem! Tap the button anytime to start over, or reach us on <b>0916 006 6664</b>. 👋"); return; }
+  if (val.startsWith("wa:")) { window.open(WA + encodeURIComponent(val.slice(3)), "_blank"); return; }
+}
+function recommend(key, others=[]) {
+  const p = PRODUCTS[key];
+  const waText = `Hello Vigour Homes! I'm interested in the ${p.name} (${p.price}) at ${p.project}. Please send me details.`;
+  botSay(`Based on what you told me, here's my top pick for you: 🏡<br><br>
+    <b>${p.name}</b> — <span class="font-serif text-lg text-navy font-semibold">${p.price}</span><br>
+    <span class="text-xs text-slate-500">${p.project} • ${p.loc}</span><br><br>${p.desc}<br><br>
+    <span class="text-xs bg-gold/20 text-navy font-bold px-3 py-1.5 rounded-full">50% deposit — spread balance within 6 months</span>`,
+    700);
+  setTimeout(() => {
+    const extra = others.length ? `<br><br>Also worth a look: ${others.map(k => `<b>${PRODUCTS[k].name}</b> (${PRODUCTS[k].price})`).join(" • ")}` : "";
+    botSay(`Want the full details, floor plans and a site inspection? Our team responds fast. 👇${extra}`, 600);
+    setTimeout(() => setQuick([
+      ["Chat on WhatsApp", "wa:" + waText],
+      ["Yes, show me more", "more-yes"],
+      ["No, I'm good", "more-no"]
+    ]), 1100);
+  }, 1400);
+}
+</script>
+</body>
+</html>
